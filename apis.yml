@@ -1,0 +1,90 @@
+name: Elwyn
+description: |-
+  Elwyn is a Pennsylvania-headquartered nonprofit human services organization founded
+  in 1852, providing services to children and adults with intellectual and developmental
+  disabilities, autism, and behavioral health needs. Elwyn describes itself as "the
+  longest-running human services nonprofit of its kind in the nation," operating across
+  Pennsylvania, Delaware, New Jersey, and California with approximately 4,000 employees.
+  The organization delivers six core service lines: Adult Behavioral Health Services,
+  Children's Behavioral Health Services, Crisis Services, Early Learning Services,
+  Educational Services, and Intellectual and Developmental Disabilities Services.
+
+  Elwyn is a service-delivery nonprofit, not a software or API provider. It publishes
+  no public APIs, OpenAPI documents, SDKs, developer portal, or open-data feeds. Its
+  digital presence is limited to its marketing site (elwyn.org), program pages, news,
+  and donation/contact forms. This profile documents the organization's mission and
+  the absence of any public API or developer surface.
+image: https://avatars.githubusercontent.com/u/elwyn
+url: https://www.elwyn.org
+created: 2026-05-22
+modified: 2026-05-23
+specificationVersion: "0.18"
+tags:
+  - Nonprofit
+  - Human Services
+  - Disability Services
+  - Behavioral Health
+  - Intellectual Disabilities
+  - Developmental Disabilities
+  - Autism Services
+  - Early Intervention
+  - Education
+  - Crisis Services
+  - Pennsylvania
+apis: []
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+common:
+  - type: Website
+    url: https://www.elwyn.org
+  - type: AboutUs
+    url: https://www.elwyn.org/about-us/
+  - type: History
+    url: https://www.elwyn.org/our-history/
+  - type: Services
+    url: https://www.elwyn.org/services/
+  - type: News
+    url: https://www.elwyn.org/news/
+  - type: Careers
+    url: https://www.elwyn.org/careers/
+  - type: Donate
+    url: https://www.elwyn.org/donate/
+  - type: ContactUs
+    url: https://www.elwyn.org/contact-us/
+x-organization:
+  type: Nonprofit
+  founded: 1852
+  headquarters: Elwyn, Pennsylvania, USA
+  employees: ~4000
+  founders:
+    - James Richards
+    - Dr. Alfred Elwyn
+  president: Charles S. McLister
+  statesServed:
+    - Pennsylvania
+    - Delaware
+    - New Jersey
+    - California
+  serviceLines:
+    - Adult Behavioral Health Services
+    - Children's Behavioral Health Services
+    - Crisis Services
+    - Early Learning Services
+    - Educational Services
+    - Intellectual and Developmental Disabilities Services
+x-api-surface:
+  publicApis: 0
+  openapi: false
+  asyncapi: false
+  sdks: false
+  cli: false
+  webhooks: false
+  developerPortal: false
+  openData: false
+  rssFeed: unknown
+  notes: |-
+    No public API, developer portal, OpenAPI specification, SDKs, CLI, or webhook
+    surface was identified on elwyn.org or in any public registry. Elwyn is a
+    direct-service nonprofit; technology activity is internal to operations
+    (EHR, case management, payroll), not exposed externally.
