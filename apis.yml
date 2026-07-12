@@ -36,6 +36,8 @@ maintainers:
   - FN: Kin Lane
     email: info@apievangelist.com
 common:
+  - type: DomainSecurity
+    url: security/elwyn-domain-security.yml
   - type: Website
     url: https://www.elwyn.org
   - type: AboutUs
@@ -52,6 +54,8 @@ common:
     url: https://www.elwyn.org/donate/
   - type: ContactUs
     url: https://www.elwyn.org/contact-us/
+  - type: Blog
+    url: https://www.elwyn.org/feed/
 x-organization:
   type: Nonprofit
   founded: 1852
