@@ -1,0 +1,21 @@
+{
+  "repo": "elwyn",
+  "feeds": [
+    {
+      "source": "https://www.elwyn.org/feed/",
+      "feed_url": "https://www.elwyn.org/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.elwyn.org/contact-us/",
+      "feed_url": "https://www.elwyn.org/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 12
+}
