@@ -14,6 +14,17 @@ description: |-
   digital presence is limited to its marketing site (elwyn.org), program pages, news,
   and donation/contact forms. This profile documents the organization's mission and
   the absence of any public API or developer surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://avatars.githubusercontent.com/u/elwyn
 url: https://www.elwyn.org
 created: 2026-05-22
