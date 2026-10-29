@@ -64,62 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-[Elwyn](https://www.elwyn.org) is a Pennsylvania-headquartered nonprofit human
-services organization founded in **1852** and, by its own description, "the
-longest-running human services nonprofit of its kind in the nation." It serves
-children and adults with intellectual and developmental disabilities, autism,
-and behavioral health needs, employing approximately **4,000 staff** across
-Pennsylvania, Delaware, New Jersey, and California.
+Elwyn is a Pennsylvania-headquartered nonprofit human services organization founded in 1852, providing services to children and adults with intellectual and developmental disabilities, autism, and behavioral health needs. Elwyn describes itself as "the longest-running human services nonprofit of its kind in the nation," operating across Pennsylvania, Delaware, New Jersey, and California with approximately 4,000 employees. The organization delivers six core service lines: Adult Behavioral Health Services, Children's Behavioral Health Services, Crisis Services, Early Learning Services, Educational Services, and Intellectual and Developmental Disabilities Services. Elwyn is a service-delivery nonprofit, not a software or API provider. It publishes no public APIs, OpenAPI documents, SDKs, developer portal, or open-data feeds. Its digital presence is limited to its marketing site (elwyn.org), program pages, news, and donation/contact forms. This profile documents the organization's mission and the absence of any public API or developer surface.
 
-## Mission and Scope
+**Areas:** Non-Profit · Human Services · Disability Services · Behavioral Health · Intellectual Disabilities · Developmental Disabilities · Autism Services · Early Intervention · Education · Crisis Services · Pennsylvania
 
-Elwyn was founded in 1852 when James Richards opened an initial classroom, and
-was formally chartered in 1853 by Dr. Alfred Elwyn as "The Pennsylvania
-Training School for Feeble-Minded Children." In 1857, Dorothea Dix helped
-secure state funding and a 300-acre farm in Media, Pennsylvania, which remains
-the organization's headquarters campus. In 1876, the first professional
-organization for intellectual disabilities in the United States was founded at
-Elwyn. Charles S. McLister has served as President and CEO since 2017.
+## Elwyn on APIs.io
 
-The organization's guiding philosophy is captured in its statement: "We
-continue to create opportunities where there once were none."
+Everything profiled for Elwyn is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/elwyn/](https://apis.io/providers/elwyn/)** — or go straight to one of the APIs or properties below.
 
-## Service Lines
+### Published properties
 
-Elwyn delivers six core service lines:
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-1. Adult Behavioral Health Services
-2. Children's Behavioral Health Services
-3. Crisis Services
-4. Early Learning Services
-5. Educational Services
-6. Intellectual and Developmental Disabilities Services
+#### Security (1)
 
-## API and Developer Surface
+Authentication, trust centre, and vulnerability disclosure.
 
-Elwyn is a direct-service nonprofit, not a technology provider. The pipeline
-crawl of [elwyn.org](https://www.elwyn.org) found:
+- [Elwyn Domain Security](https://apis.io/security/elwyn/elwyn-domain-security/)
 
-- **0 public APIs**
-- **No OpenAPI or AsyncAPI specifications**
-- **No SDKs, CLI, or webhooks**
-- **No developer portal**
-- **No public open-data feed or status page**
+## Where to find this API
 
-Internal technology (EHR, case management, payroll, scheduling) is not exposed
-through any public developer surface. This repository documents the
-organization's mission and the absence of any public API surface; no
-`openapi/`, `capabilities/`, `json-schema/`, `rules/`, or `examples/`
-artifacts are generated because there is no underlying API to model.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Files
+- [Website](https://www.elwyn.org)
+- [Blog](https://www.elwyn.org/feed/)
 
-- [`apis.yml`](apis.yml) — APIs.json profile documenting the organization,
-  common web properties, and the empty API surface.
+## API Evangelist rating
 
-## Sources
+**Kin Score 4.2** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-- <https://www.elwyn.org>
-- <https://www.elwyn.org/about-us/>
-- <https://www.elwyn.org/our-history/>
-- <https://www.elwyn.org/services/>
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/elwyn/](https://apis.io/providers/elwyn/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Elwyn: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/elwyn/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
